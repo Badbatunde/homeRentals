@@ -5,7 +5,7 @@
 }
 
 header {
-  background-image: url("/images/headerbg.png");
+  background-image: url("../images/headerbg.png");
   background-color: gray;
   height: 100vh;
   background-position: center;
