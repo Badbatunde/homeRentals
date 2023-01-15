@@ -14,33 +14,118 @@ header {
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 100px;
-}
-
-hr {
-    margin: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  border-bottom: 1px solid white;
+  margin: 0px 100px;
 }
 
 ul {
-    display: flex;
-    padding-right: 400px;
+  display: flex;
+  padding-right: 310px;
 }
 
 li {
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    margin-left: 70px;
-    text-align: center;
-    padding-top: 30px;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-left: 50px;
+  text-align: center;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px 10px;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 
 li:hover {
-    border-bottom: 2px white solid;
-    padding-bottom: 20px;
-    
+  border-bottom: 2.3px solid white;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  margin: 50px 100px;
+  justify-content: space-between;
+}
+
+.hero h2 {
+  font-family: sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: white;
+  text-transform: capitalize;
+  margin-right: 200px;
+}
+
+#theMap {
+  height: 340px;
+  width: 408;
+}
+
+.dropdown {
+  width: 360px;
+  height: 50px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.firstSect {
+  margin: 50px 100px;
+}
+
+.firstSect h2 {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.rule {
+  width: 400px;
+  height: 2px;
+  border: 2px solid red;
+}
+
+.benefits {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.benefitImg {
+  margin: 10px 0px;
+  margin-left: -50px;
+}
+
+.box {
+  margin: 10px;
+  border: 1px solid red;
+}
+
+.box img {
+  width: 77px;
+  height: 77px;
+  background: #ffffff;
+  box-shadow: 0px 12px 19px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.box p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 35px;
+  text-transform: capitalize;
 }
