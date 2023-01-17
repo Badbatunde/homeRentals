@@ -33,7 +33,7 @@ li {
   margin-left: 50px;
   text-align: center;
   color: white;
-  font-family: 'Inter';
+  font-family: "Inter";
   padding: 0px 10px;
   padding-top: 30px;
   padding-bottom: 15px;
@@ -53,7 +53,7 @@ li:hover {
 }
 
 .hero h2 {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-size: 48px;
   font-weight: 700;
   line-height: 70px;
@@ -78,11 +78,11 @@ li:hover {
 }
 
 .firstSect {
-  margin: 50px 100px;
+  margin: 50px 100px 0px 100px;
 }
 
 .firstSect h2 {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
@@ -94,7 +94,7 @@ li:hover {
 .rule {
   width: 400px;
   height: 2px;
-  border: 2px solid #F4511E;
+  border: 2px solid #f4511e;
 }
 
 .benefits {
@@ -104,7 +104,7 @@ li:hover {
 }
 
 .benefitImg {
-  margin: 10px 0px;
+  margin: 10px 0px 0px 0px;
   margin-left: -50px;
 }
 
@@ -132,7 +132,7 @@ li:hover {
 
 .dropDetails {
   padding: 10px;
-  margin-left: 10px;
+  margin-left: 15px;
   padding-top: 15px;
   height: 88px;
 }
@@ -142,11 +142,13 @@ li:hover {
   height: 58px;
   margin-right: 0px;
   font-size: 14px;
-  background: linear-gradient(0deg, #E6E6E6, #E6E6E6),
-  linear-gradient(0deg, #F9F9F9, #F9F9F9);
-  border:  #E6E6E6;
-  border-top-left-radius: 10px ;
-  border-bottom-left-radius: 10px 
+  background: linear-gradient(0deg, #e6e6e6, #e6e6e6),
+    linear-gradient(0deg, #f9f9f9, #f9f9f9);
+  border: #e6e6e6;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-right: none;
+  border: 1px solid #979797;
 }
 
 .fa {
@@ -157,46 +159,46 @@ li:hover {
 .neighborhood {
   width: 175px;
   height: 58px;
-  margin-left: 0px;
+  margin-left: -4px;
   font-size: 14px;
-  background: linear-gradient(0deg, #E6E6E6, #E6E6E6),
-  linear-gradient(0deg, #F9F9F9, #F9F9F9);
-  border:  #E6E6E6;
+  background: linear-gradient(0deg, #e6e6e6, #e6e6e6),
+    linear-gradient(0deg, #f9f9f9, #f9f9f9);
+  border: #e6e6e6;
+  border: 1px solid #979797;
 }
 
 .search {
-  margin-left: 0px;
+  margin-left: -4px;
   height: 58px;
   width: 59px;
   padding: 0px 10px;
-  background-color: #23A6F0;
+  background-color: #23a6f0;
   color: white;
   text-align: center;
   font-size: 20px;
-  border-top-right-radius: 10px ;
+  border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   padding-top: 17px;
 }
 
 button:hover {
-  border: 2px solid #23A6F0;
+  border: 2px solid #23a6f0;
 }
 
 .benefitDetails {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    margin-right: -50px;
-    border: 1px solid red;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-right: -50px;
 }
 
 .box {
   background-color: rgba(255, 255, 255, 0.8);
   padding-right: 40px;
   font-size: 26px;
-  text-align:left ;
+  text-align: left;
   border: none;
   margin-bottom: 70px;
 }
@@ -205,4 +207,185 @@ button:hover {
   font-size: 20px;
   line-height: 25px;
   margin-top: 15px;
+}
+
+.secondSect {
+  background-color: #f5f5f5;
+  margin-top: -50px;
+  padding-bottom: 50px;
+}
+
+.sectContainer {
+  margin: 50px 100px;
+  padding-top: 50px;
+}
+
+.sectNav {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+
+.sectNav h2 {
+  font-family: "Inter";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.sectNav button {
+  width: 200px;
+  height: 65px;
+  background-color: #f4511e;
+  border: none;
+  border-radius: 5px;
+  font-family: Manrope;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  margin-right: 0px;
+}
+
+.rule2 {
+  width: 90px;
+  height: 2px;
+  border: 2px solid #f4511e;
+}
+
+.boxContent {
+  background-color: white;
+  padding-left: 25px;
+}
+
+.card {
+  width: 362px;
+  height: 521px;
+  background-color: white;
+  border: 2px solid #979797;
+  border-radius: 29.9166px;
+  margin-bottom: 50px;
+}
+
+.properties {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bolder {
+  font-family: "DM Sans";
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.6420748233795166px;
+  text-align: left;
+  text-transform: capitalize;
+  margin: 15px 0px;
+}
+
+.light {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.642075px;
+  text-transform: capitalize;
+  color: #818181;
+  padding-bottom: 3px;
+}
+
+.amount {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25.552px;
+  line-height: 33px;
+  letter-spacing: -0.642075px;
+  text-transform: capitalize;
+  color: #f4511e;
+}
+
+.boxFooter {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 15px;
+}
+
+.boxFooter div {
+  border: 1px solid #979797;
+  border-left: none;
+  border-bottom: none;
+  padding: 20px;
+  text-align: left;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.0993px;
+  line-height: 24px;
+  letter-spacing: -0.454803px;
+  color: #000000;
+}
+
+.spaces {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.boxFooter .noRb {
+  border-right: none;
+}
+
+.paginations {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px thin #979797;
+}
+
+.pagination a {
+  color: #f4511e;
+  float: left;
+  padding: 16px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #f4511e;
+}
+
+.pagination .first {
+  background-color: #f3f3f3;
+  color: #bdbdbd;
+}
+
+.pagination a.active {
+  background-color: #f4511e;
+  color: white;
+  border: 1px solid #f4511e;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
 }
