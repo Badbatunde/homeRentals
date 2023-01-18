@@ -216,7 +216,7 @@ button:hover {
 }
 
 .sectContainer {
-  margin: 50px 100px;
+  margin: 0px 100px;
   padding-top: 50px;
 }
 
@@ -388,4 +388,172 @@ button:hover {
 
 .pagination a:hover:not(.active) {
   background-color: #ddd;
+}
+
+.thirdSect {
+  display: flex;
+}
+
+.sectContainer2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: flex-start;
+  margin: 80px 100px;
+}
+
+.sectFigs {
+  position: relative;
+  color: black;
+  height: 334px;
+  width: 250px;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.sectFigs img {
+  margin-right: 0px;
+  height: 334px;
+  width: 250px;
+  left: 0px;
+  top: 0px;
+  border-radius: 20px;
+}
+
+.sectText {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  top: 10%;
+  left: 11%;
+  position: absolute;
+  color: white;
+}
+
+.sectFigs2 {
+  position: relative;
+  color: black;
+  height: 270px;
+  width: 270px;
+  border-radius: 20px;
+  margin-top: 64px;
+}
+
+.sectFigs2 img {
+  margin-right: 0px;
+  height: 270px;
+  width: 270px;
+  left: 270px;
+  top: 64px;
+  border-radius: 20px;
+}
+.sectText2 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  top: 10%;
+  left: 11%;
+  position: absolute;
+  color: white;
+}
+
+.sectFigs3 {
+  position: relative;
+  color: black;
+  height: 285px;
+  width: 212px;
+  border-radius: 20px;
+}
+
+.sectFigs3 img {
+  height: 285px;
+  width: 212px;
+  border-radius: 20px;
+}
+
+.sectText3 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  top: 9%;
+  left: 11%;
+  position: absolute;
+  color: white;
+  text-align: center;
+  margin-left: -19px;
+}
+
+.sectFigs4 {
+  position: relative;
+  color: black;
+  height: 270px;
+  width: 270px;
+  border-radius: 20px;
+  margin-left: -35px;
+}
+
+.sectFigs4 img {
+  width: 338px;
+  height: 356px;
+  border-radius: 20px;
+}
+.sectText4 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  top: 9%;
+  left: 1%;
+  position: absolute;
+  color: white;
+  margin-left: 70px;
+}
+
+.sectSide {
+  margin-right: 150px;
+  margin-top: 240px;
+  margin-bottom: 120px;
+}
+
+.sectSide h3 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.sectSide p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191f;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+.sectSide button {
+  width: 185px;
+  height: 63px;
+  background: #f4511e;
+  border-radius: 13px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
 }
