@@ -566,7 +566,7 @@ button:hover {
 .theForm p {
   margin-top: 10px;
   margin-bottom: 30px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   text-transform: capitalize;
   color: #000000;
@@ -708,7 +708,6 @@ textarea {
   letter-spacing: 0em;
   text-align: center;
   text-transform: none;
-  padding-top: 0px;
 }
 
 .uploadIns .light {
@@ -737,4 +736,62 @@ textarea {
   line-height: 25px;
   letter-spacing: 0.1815929263830185px;
   color: white;
+}
+
+.lastSect {
+  display: flex;
+  margin: 50px -100px 20px -100px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(244, 81, 30, 0.07);
+}
+
+.lastImg img {
+  height: 590px;
+  width: 638px;
+  margin-left: 5px;
+}
+
+.close {
+  margin-left: 75px;
+}
+
+.close p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 36px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #18191f;
+  text-align: left;
+  text-transform: none;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.authorDetails {
+  margin-left: 20px;
+  padding-top: 40px;
+}
+
+.author h5 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.author p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: -7px;
 }
