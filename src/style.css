@@ -744,6 +744,7 @@ textarea {
   justify-content: center;
   align-items: center;
   background: rgba(244, 81, 30, 0.07);
+  position: relative;
 }
 
 .lastImg img {
@@ -753,16 +754,15 @@ textarea {
 }
 
 .close {
-  margin-left: 75px;
+  margin-left: 120px;
 }
 
 .close p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 21px;
+  font-size: 19px;
   line-height: 36px;
-  font-feature-settings: "salt" on, "liga" off;
   color: #18191f;
   text-align: left;
   text-transform: none;
@@ -785,6 +785,7 @@ textarea {
   font-weight: 700;
   letter-spacing: 0em;
   text-align: left;
+  color: #F4511E;
 }
 
 .author p {
@@ -794,4 +795,30 @@ textarea {
   letter-spacing: 0em;
   text-align: left;
   margin-top: -7px;
+}
+
+.quote {
+  position: absolute;
+  top: 75px;
+  left: 75px;
+  height: 60px;
+  width: 70.68862915039062px;
+  z-index: -1;
+}
+
+.circles .active {
+  background-color: #F4511E; 
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #D9DBE1;
+  margin-right: 10px;
+}
+
+.circles {
+  display: flex;
+  margin-top: 50px;
 }
