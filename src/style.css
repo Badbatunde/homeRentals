@@ -21,12 +21,12 @@ header {
   margin: 0px 100px;
 }
 
-ul {
+.navbar ul {
   display: flex;
   padding-right: 310px;
 }
 
-li {
+.navbar li {
   align-items: center;
   justify-content: center;
   list-style: none;
@@ -664,7 +664,7 @@ textarea {
   background: #f9f9f9;
   border: 1px solid #e6e6e6;
   height: 151px;
-  width: 1004px;
+  width: 1030px;
   border-radius: 5px;
   margin-top: 10px;
   font-family: Inter;
@@ -693,7 +693,7 @@ textarea {
 
 .uploadIns {
   height: 102px;
-  width: 1004px;
+  width: 1030px;
   border-radius: 10px;
   margin-top: 10px;
   border: 2px dashed #f4511e;
@@ -785,7 +785,7 @@ textarea {
   font-weight: 700;
   letter-spacing: 0em;
   text-align: left;
-  color: #F4511E;
+  color: #f4511e;
 }
 
 .author p {
@@ -807,18 +807,83 @@ textarea {
 }
 
 .circles .active {
-  background-color: #F4511E; 
+  background-color: #f4511e;
 }
 
 .circle {
   width: 10px;
   height: 10px;
   border-radius: 5px;
-  background-color: #D9DBE1;
+  background-color: #d9dbe1;
   margin-right: 10px;
 }
 
 .circles {
   display: flex;
   margin-top: 50px;
+}
+
+.contact {
+  padding-bottom: 100px;
+}
+
+.contacts {
+  border: 2px #f4511e solid;
+  margin-right: 200px;
+}
+
+.contact .contactBox {
+  border-top: 2px #f4511e solid;
+  margin-top: 100px;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.contactBox h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 70px;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.contactUs {
+  display: flex;
+  align-items: center;
+}
+
+.contactUs ul {
+  display: flex;
+}
+
+.contactUs li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #0a142f;
+  margin-right: -40px;
+  text-align: left;
+  list-style: none;
+  margin-left: 80px;
+  text-align: left;
+}
+
+.contactUs p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: #0a142f;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-left: 150px;
+  padding-top: 15px;
 }
